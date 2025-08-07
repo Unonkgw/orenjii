@@ -13,7 +13,7 @@ const server = http.createServer((req, res) => {
     }
     
     else {
-        filePath = './'
+        filePath = './orenjii'
         if (req.url === '/') {
             filePath += 'index.html'
             res.statusCode = 200
